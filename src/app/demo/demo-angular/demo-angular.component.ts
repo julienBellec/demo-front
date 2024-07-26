@@ -7,6 +7,9 @@ import {ComposingComponentsComponent} from "../learn-angular/composing-component
 import {ControlFlowIfComponent} from "../learn-angular/control-flow-if/control-flow-if.component";
 import {ControlFlowForComponent} from "../learn-angular/control-flow-for/control-flow-for.component";
 import {PropertyBindingComponent} from "../learn-angular/property-binding/property-binding.component";
+import {EventHandlingComponent} from "../learn-angular/event-handling/event-handling.component";
+import {InputComponent} from "../learn-angular/input/input.component";
+import {OutputComponent} from "../learn-angular/output/output.component";
 
 @Component({
   selector: 'app-demo-angular',
@@ -17,7 +20,10 @@ import {PropertyBindingComponent} from "../learn-angular/property-binding/proper
     ComposingComponentsComponent,
     ControlFlowIfComponent,
     ControlFlowForComponent,
-    PropertyBindingComponent
+    PropertyBindingComponent,
+    EventHandlingComponent,
+    InputComponent,
+    OutputComponent
   ],
   template: `
 
@@ -61,6 +67,24 @@ import {PropertyBindingComponent} from "../learn-angular/property-binding/proper
       </div>
       <div class="row">
         <app-property-binding></app-property-binding>
+      </div>
+      <div class="row">
+        <p><a href="https://angular.dev/tutorials/learn-angular/7-event-handling" target="_blank">7-event-handling</a></p>
+      </div>
+      <div class="row">
+        <app-event-handling></app-event-handling>
+      </div>
+      <div class="row">
+        <p><a href="https://angular.dev/tutorials/learn-angular/8-input" target="_blank">8-input</a></p>
+      </div>
+      <div class="row">
+        <app-input occupation="Angular Developer"></app-input>
+      </div>
+      <div class="row">
+        <p><a href="https://angular.dev/tutorials/learn-angular/9-output" target="_blank">9-output</a></p>
+      </div>
+      <div class="row">
+        <app-output></app-output>
       </div>
 
 
