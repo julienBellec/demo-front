@@ -1,18 +1,18 @@
 import { Component } from '@angular/core';
-import {ComponentsInAngularComponent} from "../learn-angular/components-in-angular/components-in-angular.component";
+import {ComponentsInAngularComponent} from "./components-in-angular/components-in-angular.component";
 import {
   UpdatingTheComponentClassComponent
-} from "../learn-angular/updating-the-component-class/updating-the-component-class.component";
-import {ComposingComponentsComponent} from "../learn-angular/composing-components/composing-components.component";
-import {ControlFlowIfComponent} from "../learn-angular/control-flow-if/control-flow-if.component";
-import {ControlFlowForComponent} from "../learn-angular/control-flow-for/control-flow-for.component";
-import {PropertyBindingComponent} from "../learn-angular/property-binding/property-binding.component";
-import {EventHandlingComponent} from "../learn-angular/event-handling/event-handling.component";
-import {InputComponent} from "../learn-angular/input/input.component";
-import {OutputComponent} from "../learn-angular/output/output.component";
+} from "./updating-the-component-class/updating-the-component-class.component";
+import {ComposingComponentsComponent} from "./composing-components/composing-components.component";
+import {ControlFlowIfComponent} from "./control-flow-if/control-flow-if.component";
+import {ControlFlowForComponent} from "./control-flow-for/control-flow-for.component";
+import {PropertyBindingComponent} from "./property-binding/property-binding.component";
+import {EventHandlingComponent} from "./event-handling/event-handling.component";
+import {InputComponent} from "./input/input.component";
+import {OutputComponent} from "./output/output.component";
 
 @Component({
-  selector: 'app-demo-angular',
+  selector: 'app-learn-angular',
   standalone: true,
   imports: [
     ComponentsInAngularComponent,
@@ -92,6 +92,6 @@ import {OutputComponent} from "../learn-angular/output/output.component";
   `,
   styles: ``
 })
-export class DemoAngularComponent {
+export class LearnAngularComponent {
 
 }
