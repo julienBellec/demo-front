@@ -1,9 +1,12 @@
 # DemoFront
 
 ## TODO :
+https://angular.dev/tutorials/learn-angular
 https://material.angular.io/guide/getting-started
-
-
+https://openclassrooms.com/fr/courses/3936801-composez-des-interfaces-utilisateurs-en-material-design/4392371-utilisez-le-framework-materialize-css
+https://material.angularjs.org/1.1.1/getting-started
+https://muhimasri.com/blogs/how-to-create-a-single-file-component-in-angular/
+https://developer.mozilla.org/fr/docs/Web/HTML
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
